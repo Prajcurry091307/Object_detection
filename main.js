@@ -26,10 +26,10 @@ function draw()
     stroke("#ff0000");
     rect(30,60, 450, 350);
 
-    fill("#0000ff")
-    text("Cat", 275, 295);
+    fill("#ff0000")
+    text("Cat", 255, 150);
     noFill();
-    stroke("#0000ff")
+    stroke("#ff0000")
     rect(250,80, 300,330);
 
 
