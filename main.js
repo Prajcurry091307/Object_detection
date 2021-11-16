@@ -9,7 +9,7 @@ function setup()
 {
     canvas = createCanvas(640,420);
     canvas.center();
-    objectDetector=mlt.objectDetector('cocossd',modelLoaded); 
+    objectDetector=ml5.objectDetector('cocossd',modelLoaded); 
 }
 function modelLoaded()
 {
